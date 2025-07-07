@@ -342,3 +342,70 @@ lib/
             └── feature_screen.dart
 ```
 
+## 🎯 Purpose
+
+To implement a UI screen (e.g., `AuthScreen`, `ProfileEditScreen`) where:
+- All business/UI logic is abstracted into a Mixin.
+- The UI code only reflects layout, styling, and widget structure.
+- Bloc is used for state changes and action dispatching.
+- Custom reusable widgets (like `WButton`, `TextFieldWithLabel`, `WRadio`, etc.) are used to maintain design consistency.
+
+---
+
+## 🧱 Project Structure Guideline
+
+```
+lib/
+└── features/
+    └── feature/
+        ├── presentation/
+        │   ├── screens/
+        │   │   └── feature_screen.dart           # only UI layout, uses mixin
+        │   ├── mixins/
+        │   │   └── feature_mixin.dart            # logic: event triggering, validation, navigation
+        │   ├── ... bloc, events, state and others
+        │   └── widgets/
+        │       ├── phone_field.dart
+        │       ├── password_field.dart
+        │       └── w_button.dart              # Custom widgets used across the app
+```
+
+---
+
+## 🔧 How to Write `ExampleScreen`
+
+### 1. **Screen Widget**: Only display UI with layout and custom widget composition.
+- Use `BlocSelector` or `BlocBuilder` only for extracting values.
+- No logic or `context.read<>.add(...)` calls inside `build()`.
+
+### 2. **Mixin**: Handles all tap, onChanged, validation, and Bloc event dispatch.
+- Keeps `State` class clean.
+- Makes screen reusable and easier to test.
+
+---
+
+## 🧪 Example Use: `AuthScreen`
+
+### ➤ Event dispatching (from mixin)
+
+```dart
+void onLogin() {
+  if (context.read<AuthBloc>().state.phone.isEmpty) {
+    context.showPopUp(status: PopUpStatus.error, message: 'Phone required');
+    return;
+  }
+  context.read<AuthBloc>().add(LoginEvent(
+    onSuccess: () => Navigator.push(...),
+    onError: (msg) => context.showErrorPopUp(message: msg),
+  ));
+}
+```
+
+---
+
+If you follow this pattern:
+✅ Your screens remain clean  
+✅ Your logic stays testable  
+✅ Reusability and clarity improve dramatically
+
+
