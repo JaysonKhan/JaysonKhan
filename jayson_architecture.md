@@ -1,5 +1,5 @@
 
-# Flutter Clean Architecture Documentation (AI Prompt Style)
+# Flutter Clean Architecture Documentation
 
 This document explains the clean architecture structure used in a Flutter project with concrete examples. This is designed to help AI or developers understand how to generate code in this structure.
 
@@ -333,13 +333,15 @@ lib/
             │   ├── feature_bloc.dart
             │   ├── feature_evant.dart
             │   └── feature_state.dart
+            ├── mixins/
+            │   └── feature_mixin.dart            # logic: event triggering, validation, navigation
             ├── pages/
             │   ├── something_page.dart
             │   └── ... other pages related to this feature
-            ├── widgets/
+            ├── widgets/                          # Custom widgets used across the app
             │   ├── feature_list_item.dart
             │   └── ... other widgets related to this feature
-            └── feature_screen.dart
+            └── feature_screen.dart               # only UI layout, uses mixin
 ```
 
 ## 🎯 Purpose
@@ -349,26 +351,6 @@ To implement a UI screen (e.g., `AuthScreen`, `ProfileEditScreen`) where:
 - The UI code only reflects layout, styling, and widget structure.
 - Bloc is used for state changes and action dispatching.
 - Custom reusable widgets (like `WButton`, `TextFieldWithLabel`, `WRadio`, etc.) are used to maintain design consistency.
-
----
-
-## 🧱 Project Structure Guideline
-
-```
-lib/
-└── features/
-    └── feature/
-        ├── presentation/
-        │   ├── screens/
-        │   │   └── feature_screen.dart           # only UI layout, uses mixin
-        │   ├── mixins/
-        │   │   └── feature_mixin.dart            # logic: event triggering, validation, navigation
-        │   ├── ... bloc, events, state and others
-        │   └── widgets/
-        │       ├── phone_field.dart
-        │       ├── password_field.dart
-        │       └── w_button.dart              # Custom widgets used across the app
-```
 
 ---
 
@@ -407,5 +389,3 @@ If you follow this pattern:
 ✅ Your screens remain clean  
 ✅ Your logic stays testable  
 ✅ Reusability and clarity improve dramatically
-
-
