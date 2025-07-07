@@ -5,6 +5,46 @@ This document explains the clean architecture structure used in a Flutter projec
 
 ---
 
+## 📁 Folder Structure & File Naming Tree
+
+```
+lib/
+└── features/
+    └── feature/
+        ├── data/
+        │   ├── data_source/
+        │   │   └── feature_data_source.dart
+        │   ├── models/
+        │   │   └── feature_model.dart
+        │   │   └── ... other models related to this feature
+        │   └── repositories/
+        │       └── feature_repository_impl.dart
+        ├── domain/
+        │   ├── entities/
+        │   │   ├── feature_entity.dart
+        │   │   └── ... other entities related to this feature
+        │   ├── repositories/
+        │   │   └── feature_repository.dart
+        │   └── usecases/
+        │       ├── something_usecase.dart
+        │       └── ... other usecases related to this feature
+        └── presentation/
+            ├── bloc/
+            │   ├── feature_bloc.dart
+            │   ├── feature_evant.dart
+            │   └── feature_state.dart
+            ├── mixins/
+            │   └── feature_mixin.dart            # logic: event triggering, validation, navigation
+            ├── pages/
+            │   ├── something_page.dart
+            │   └── ... other pages related to this feature
+            ├── widgets/                          # Custom widgets used across the app
+            │   ├── feature_list_item.dart
+            │   └── ... other widgets related to this feature
+            └── feature_screen.dart               # only UI layout, uses mixin
+```
+---
+
 ## 1. ENTITY
 
 - Entities are immutable classes that extend `Equatable`.
@@ -304,45 +344,6 @@ Future<void> _onRegister(RegisterEvent event, Emitter<AuthState> emit) async {
 ```
 
 ---
-
-## 📁 Folder Structure & File Naming Tree
-
-```
-lib/
-└── features/
-    └── feature/
-        ├── data/
-        │   ├── data_source/
-        │   │   └── feature_data_source.dart
-        │   ├── models/
-        │   │   └── feature_model.dart
-        │   │   └── ... other models related to this feature
-        │   └── repositories/
-        │       └── feature_repository_impl.dart
-        ├── domain/
-        │   ├── entities/
-        │   │   ├── feature_entity.dart
-        │   │   └── ... other entities related to this feature
-        │   ├── repositories/
-        │   │   └── feature_repository.dart
-        │   └── usecases/
-        │       ├── something_usecase.dart
-        │       └── ... other usecases related to this feature
-        └── presentation/
-            ├── bloc/
-            │   ├── feature_bloc.dart
-            │   ├── feature_evant.dart
-            │   └── feature_state.dart
-            ├── mixins/
-            │   └── feature_mixin.dart            # logic: event triggering, validation, navigation
-            ├── pages/
-            │   ├── something_page.dart
-            │   └── ... other pages related to this feature
-            ├── widgets/                          # Custom widgets used across the app
-            │   ├── feature_list_item.dart
-            │   └── ... other widgets related to this feature
-            └── feature_screen.dart               # only UI layout, uses mixin
-```
 
 ## 🎯 Purpose
 
