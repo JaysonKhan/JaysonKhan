@@ -310,20 +310,35 @@ Future<void> _onRegister(RegisterEvent event, Emitter<AuthState> emit) async {
 ```
 lib/
 └── features/
-    └── auth/
-        ├── domain/
-        │   ├── usecases/
-        │   │   └── register_usecase.dart
-        │   └── repositories/
-        │       └── auth_repository.dart
+    └── feature/
         ├── data/
-        │   └── repository/
-        │       └── auth_repository_impl.dart
+        │   ├── data_source/
+        │   │   └── feature_data_source.dart
+        │   ├── models/
+        │   │   └── feature_model.dart
+        │   │   └── ... other models related to this feature
+        │   └── repositories/
+        │       └── feature_repository_impl.dart
+        ├── domain/
+        │   ├── entities/
+        │   │   ├── feature_entity.dart
+        │   │   └── ... other entities related to this feature
+        │   ├── repositories/
+        │   │   └── feature_repository.dart
+        │   └── usecases/
+        │       ├── something_usecase.dart
+        │       └── ... other usecases related to this feature
         └── presentation/
-            └── blocs/
-                └── auth_bloc/
-                    ├── auth_bloc.dart
-                    ├── auth_event.dart
-                    └── auth_state.dart
+            ├── bloc/
+            │   ├── feature_bloc.dart
+            │   ├── feature_evant.dart
+            │   └── feature_state.dart
+            ├── pages/
+            │   ├── something_page.dart
+            │   └── ... other pages related to this feature
+            ├── widgets/
+            │   ├── feature_list_item.dart
+            │   └── ... other widgets related to this feature
+            └── feature_screen.dart
 ```
 
