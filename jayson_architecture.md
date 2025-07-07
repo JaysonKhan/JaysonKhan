@@ -177,3 +177,153 @@ class AuthenticationRepositoryImpl extends AuthenticationRepository {
 🛠 `Either<Failure, Result>` pattern must be used in repositories.
 
 🧱 Keep all implementations consistent for scalability and testing.
+# UseCase and Bloc Structure in Clean Architecture
+
+This guide explains how to implement UseCases and Bloc in a Clean Architecture approach, suitable for Flutter projects with a structured and testable layout.
+
+---
+
+## 📂 UseCase Layer
+
+Each usecase encapsulates a single responsibility and communicates only with the repository.
+
+**Abstract Base:**
+```dart
+abstract class UseCase<Type, Params> {
+  Future<Either<Failure, Type>> call(Params params);
+}
+```
+
+**Implementation Example:**
+```dart
+class RegisterUseCase extends UseCase<void, RegisterParams> {
+  final AuthRepository repository;
+
+  RegisterUseCase(this.repository);
+
+  @override
+  Future<Either<Failure, void>> call(RegisterParams params) {
+    return repository.register(
+      phone: params.phone,
+      password: params.password,
+      firstName: params.firstName,
+      lastName: params.lastName,
+      fullName: params.fullName,
+      tin: params.tin,
+      avatar: params.avatar,
+      isMale: params.isMale,
+      session: params.session,
+    );
+  }
+}
+```
+
+---
+
+## 🧠 Bloc Layer
+
+Bloc listens to events, manages state, and calls the corresponding usecases.
+
+**Event Base:**
+```dart
+abstract class AuthEvent {
+  final VoidCallback? onSuccess;
+  final Function(String errorMessage)? onError;
+
+  AuthEvent({this.onSuccess, this.onError});
+}
+```
+
+**Event Example:**
+```dart
+class GetSessionEvent extends AuthEvent {
+  final VerifyType type;
+
+  GetSessionEvent({
+    required this.type,
+    super.onSuccess,
+    super.onError,
+  });
+}
+```
+
+**State Example:**
+```dart
+class AuthState extends Equatable {
+  final FormzSubmissionStatus registerStatus;
+  final String phone;
+  final String firstName;
+  final String lastName;
+  final String fullName;
+  final String tin;
+  final bool isMale;
+  final String session;
+  final String selectedAvatarPath;
+  final RegisterType registerType;
+
+  const AuthState({
+    this.registerStatus = FormzSubmissionStatus.initial,
+    this.phone = '',
+    this.firstName = '',
+    this.lastName = '',
+    this.fullName = '',
+    this.tin = '',
+    this.isMale = true,
+    this.session = '',
+    this.selectedAvatarPath = '',
+    this.registerType = RegisterType.individual,
+  });
+```
+
+**Bloc Example:**
+```dart
+on<RegisterEvent>(_onRegister);
+
+Future<void> _onRegister(RegisterEvent event, Emitter<AuthState> emit) async {
+  emit(state.copyWith(registerStatus: FormzSubmissionStatus.inProgress));
+  final result = await _register(RegisterParams(
+    phone: "+998${state.phone.replaceAll(' ', '')}",
+    password: state.secondPassword,
+    firstName: state.firstName,
+    lastName: state.lastName,
+    fullName: state.fullName,
+    tin: state.tin,
+    avatar: state.selectedAvatarPath,
+    isMale: state.isMale,
+    session: state.session,
+    type: state.registerType,
+  ));
+  result.either(
+    (l) => blocErrorHandler(l, emit, state.copyWith(registerStatus: FormzSubmissionStatus.failure), event.onError),
+    (r) {
+      event.onSuccess?.call();
+      emit(state.copyWith(registerStatus: FormzSubmissionStatus.success));
+    },
+  );
+}
+```
+
+---
+
+## 📁 Folder Structure & File Naming Tree
+
+```
+lib/
+└── features/
+    └── auth/
+        ├── domain/
+        │   ├── usecases/
+        │   │   └── register_usecase.dart
+        │   └── repositories/
+        │       └── auth_repository.dart
+        ├── data/
+        │   └── repository/
+        │       └── auth_repository_impl.dart
+        └── presentation/
+            └── blocs/
+                └── auth_bloc/
+                    ├── auth_bloc.dart
+                    ├── auth_event.dart
+                    └── auth_state.dart
+```
+
