@@ -389,3 +389,116 @@ If you follow this pattern:
 ✅ Your screens remain clean  
 ✅ Your logic stays testable  
 ✅ Reusability and clarity improve dramatically
+## 🧠 General Principles
+- Follow Clean Architecture: separate domain, data, and presentation layers.
+- State management is done via `Bloc` and `FormzSubmissionStatus`.
+- All asynchronous logic (API calls) must be handled in UseCases and Repositories.
+- Pagination must support `fetchMore`, `next`, and `List<Entity>` with `GenericPagination<Model>` response.
+- UI logic like button taps must go into mixins if needed.
+- Avoid duplication, use `BlocSelector`, `BlocBuilder` and reuse widgets like `Paginator`.
+
+---
+
+## 🔁 Pagination Guidelines
+
+### Datasource
+```dart
+Future<GenericPagination<NotificationModel>> getNotifications({String? next});
+```
+
+### Repository
+```dart
+Future<Either<Failure, GenericPagination<NotificationEntity>>> getNotifications({String? next});
+```
+
+### UseCase
+```dart
+class GetNotificationsUseCase extends UseCase<GenericPagination<NotificationEntity>, String?> {
+  final NotificationRepository repository;
+
+  GetNotificationsUseCase({required this.repository});
+
+  @override
+  Future<Either<Failure, GenericPagination<NotificationEntity>>> call(String? next) {
+    return repository.getNotifications(next: next);
+  }
+}
+```
+
+### Bloc Events
+```dart
+class GetNotifications extends NotificationEvent {}
+class GetMoreNotifications extends NotificationEvent {}
+```
+
+### Bloc State
+```dart
+final List<NotificationEntity> notifications;
+final String? notificationNext;
+final bool notificationsFetchMore;
+final FormzSubmissionStatus notificationsStatus;
+```
+
+### Bloc Logic
+```dart
+on<GetNotifications>((event, emit) async {
+  emit(state.copyWith(notificationsStatus: FormzSubmissionStatus.inProgress));
+  final result = await getNotificationsUseCase.call(null);
+  result.either(
+    (l) => emit(state.copyWith(notificationsStatus: FormzSubmissionStatus.failure, errorMessage: l.errorMessage)),
+    (r) => emit(state.copyWith(
+      notifications: r.results,
+      notificationNext: r.next,
+      notificationsFetchMore: r.next != null,
+      notificationsStatus: FormzSubmissionStatus.success,
+    )),
+  );
+});
+
+on<GetMoreNotifications>((event, emit) async {
+  final result = await getNotificationsUseCase.call(state.notificationNext);
+  result.either(
+    (l) => emit(state),
+    (r) => emit(state.copyWith(
+      notifications: [...state.notifications, ...r.results],
+      notificationNext: r.next,
+      notificationsFetchMore: r.next != null,
+    )),
+  );
+});
+```
+
+---
+
+## 🖼 UI: Notifications Screen with Paginator
+
+### BlocBuilder
+```dart
+BlocBuilder<NotificationBloc, NotificationState>(
+  builder: (context, state) {
+    if (state.notificationsStatus.isInProgress) {
+      return ShimmerList(); // show loading
+    } else if (state.notificationsStatus.isSuccess) {
+      if (state.notifications.isEmpty) {
+        return NotificationNoData(); // show empty
+      } else {
+        return Paginator(
+          itemCount: state.notifications.length,
+          itemBuilder: (context, index) => NotificationItem(
+            title: state.notifications[index].notification.title,
+            ...
+            onTab: () => Navigator.push(...),
+          ),
+          separatorBuilder: (_, __) => const SizedBox(height: 12),
+          fetchMoreFunction: () => context.read<NotificationBloc>().add(GetMoreNotifications()),
+          hasMoreToFetch: state.notificationsFetchMore,
+          paginatorStatus: state.notificationsStatus,
+        );
+      }
+    } else {
+      return FailScreen(message: state.errorMessage); // show error
+    }
+  },
+);
+```
+
