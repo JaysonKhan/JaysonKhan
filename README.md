@@ -37,13 +37,13 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 30 January 2023 - To: 08 July 2025
+From: 30 January 2023 - To: 09 July 2025
 
-Total Time: 2,259 hrs 17 mins
+Total Time: 2,267 hrs 52 mins
 
-Dart                   1,477 hrs 35 mins⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   55.06 %
-Kotlin                 500 hrs 20 mins ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.65 %
-Other                  424 hrs 7 mins  ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.81 %
+Dart                   1,481 hrs 32 mins⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   54.98 %
+Kotlin                 500 hrs 20 mins ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.57 %
+Other                  426 hrs 55 mins ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.84 %
 ```
 
 <!--END_SECTION:waka-->
