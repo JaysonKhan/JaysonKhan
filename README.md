@@ -37,12 +37,12 @@
 <!--START_SECTION:waka-->
 
 ```python
-From: 30 January 2023 - To: 26 February 2026
+From: 30 January 2023 - To: 27 February 2026
 
-Total Time: 2,916 hrs 36 mins
+Total Time: 2,917 hrs 53 mins
 
-Dart                   2,053 hrs 34 mins     ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   57.45 %
-Other                  657 hrs 55 mins       ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.41 %
+Dart                   2,054 hrs 41 mins     ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   57.44 %
+Other                  659 hrs 8 mins        ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.43 %
 ```
 
 <!--END_SECTION:waka-->
