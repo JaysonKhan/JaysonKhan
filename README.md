@@ -26,6 +26,7 @@
 - 💼 Building elegant & performant mobile applications
 - 🌱 Exploring **advanced Flutter architecture & state management**
 - 💬 Ask me about **Flutter, Dart, Kotlin, Firebase**
+- 🌐 Portfolio: **[jaysonkhan.com](https://jaysonkhan.com)**
 - 📫 Reach me: **bettaxacker@gmail.com**
 - ⚡ Fun fact: I turn ☕ into beautiful mobile apps!
 
@@ -74,15 +75,6 @@
 
 ---
 
-<!-- ═══════════════════════════ TROPHIES ═══════════════════════════ -->
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=JaysonKhan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" alt="GitHub Trophies"/>
-</p>
-
----
-
 <!-- ═══════════════════════════ WAKATIME (unchanged) ═══════════════════════════ -->
 ## ⏱️ Weekly Development Breakdown
 
@@ -118,6 +110,9 @@ Other                  668 hrs 9 mins        ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀�
 ## 🤝 Connect with Me
 
 <p align="center">
+  <a href="https://jaysonkhan.com" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%23FF5722.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>&nbsp;
   <a href="https://github.com/JaysonKhan" target="_blank">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/>
   </a>&nbsp;
