@@ -223,6 +223,27 @@ the web client, the apps and the design are all mine to get wrong and fix.
 <!-- ═══════════════════════════ GITHUB STATS ═══════════════════════════ -->
 ## 📊 GitHub Stats
 
+<!-- Stats cards are served from a self-hosted instance of github-readme-stats
+     on Vercel. The public instance rate limits hard enough that the cards
+     rendered as broken images on the profile; this one runs under its own
+     GitHub token. Project: vercel.com/jayson20/github-readme-stats -->
+<p align="center">
+  <a href="https://github.com/JaysonKhan">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=default"/>
+      <img height="170em" src="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="JaysonKhan's GitHub stats"/>
+    </picture>
+  </a>
+  <a href="https://github.com/JaysonKhan?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=default"/>
+      <img height="170em" src="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF" alt="Top languages"/>
+    </picture>
+  </a>
+</p>
+
 <p align="center">
   <a href="https://github.com/JaysonKhan">
     <picture>
@@ -233,8 +254,9 @@ the web client, the apps and the design are all mine to get wrong and fix.
   </a>
 </p>
 
-> Language totals live in the WakaTime breakdown below — measured from actual
-> editor time rather than from repository file sizes.
+> Top Languages counts bytes of code checked into repositories. The WakaTime
+> breakdown below measures time actually spent in the editor. They answer
+> different questions, which is why both are here.
 
 ---
 
