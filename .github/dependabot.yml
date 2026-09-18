@@ -1,0 +1,13 @@
+version: 2
+
+updates:
+  # Now that the workflows pin their actions, something has to notice when a
+  # pinned version falls behind. Monthly is plenty for two workflows.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci
+    labels:
+      - dependencies
