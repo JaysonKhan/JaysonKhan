@@ -1,0 +1,14 @@
+# Normalise line endings in the repo regardless of the OS a commit came from.
+# The README is rewritten daily by a bot and occasionally by hand, so a stray
+# CRLF would otherwise show up as a whole-file diff.
+* text=auto eol=lf
+
+*.md   text
+*.yml  text
+*.yaml text
+*.svg  text
+
+# Never line-ending-mangle the binary assets.
+*.png binary
+*.jpg binary
+*.gif binary
