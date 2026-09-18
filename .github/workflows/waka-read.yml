@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# Two runs writing the same README section would race each other.
+concurrency:
+  group: waka-readme
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
