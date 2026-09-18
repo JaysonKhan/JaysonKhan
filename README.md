@@ -29,6 +29,7 @@
   <a href="#-about-me"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20About-161B22?style=for-the-badge" alt="About"/></a>
   <a href="#-uzexamuz"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20UzExam-161B22?style=for-the-badge" alt="UzExam"/></a>
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/%F0%9F%A7%B0%20Stack-161B22?style=for-the-badge" alt="Stack"/></a>
+  <a href="#-packages-and-tools"><img src="https://img.shields.io/badge/%F0%9F%A7%A9%20Packages-161B22?style=for-the-badge" alt="Packages"/></a>
   <a href="#-other-projects"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20Projects-161B22?style=for-the-badge" alt="Projects"/></a>
   <a href="#-connect"><img src="https://img.shields.io/badge/%F0%9F%A4%9D%20Connect-161B22?style=for-the-badge" alt="Connect"/></a>
 </p>
@@ -164,30 +165,82 @@ the web client, the apps and the design are all mine to get wrong and fix.
 ---
 
 <!-- ═══════════════════════════ OTHER PROJECTS ═══════════════════════════ -->
-## 📦 Other Projects
+## 🧩 Packages and Tools
 
-<p>Most of what I build day to day lives in private repositories, UzExam
-included. These are the public ones.</p>
+Written because the same problems kept coming back — on company projects and
+on my own. Three are Dio interceptors published on pub.dev; the fourth runs
+the builds.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/telegram_bot_crashlytics">📮 telegram_bot_crashlytics</a></h3>
-      <p>Dart package that pipes runtime errors straight into a Telegram bot — crash reporting without a dashboard.</p>
+      <h3><a href="https://github.com/JaysonKhan/network_cache_interceptor">🗄️ network_cache_interceptor</a></h3>
+      <p>Caches HTTP responses in SQLite and serves them when the device is offline. Stale-while-revalidate comes through a <code>cachedThenFresh()</code> stream, and cached entries can be AES-encrypted at rest.</p>
+      <p>Caching is opt-in per request, with invalidation, expiry pruning and entry limits — so the cache stays a tool instead of quietly becoming the bug.</p>
       <p>
-        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
-        <img src="https://img.shields.io/github/stars/JaysonKhan/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
-        <img src="https://img.shields.io/github/forks/JaysonKhan/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Forks"/>
+        <a href="https://pub.dev/packages/network_cache_interceptor"><img src="https://img.shields.io/pub/v/network_cache_interceptor?style=flat-square&logo=dart&logoColor=white&labelColor=0D1117&color=0175C2" alt="pub version"/></a>
+        <img src="https://img.shields.io/pub/likes/network_cache_interceptor?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub likes"/>
+        <img src="https://img.shields.io/pub/points/network_cache_interceptor?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub points"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/NewsAppCompose-MVI">📰 NewsAppCompose-MVI</a></h3>
-      <p>Native Android news client — Jetpack Compose UI on an MVI architecture.</p>
+      <h3><a href="https://github.com/JaysonKhan/encryption_interceptor">🔐 encryption_interceptor</a></h3>
+      <p>Encrypts request bodies with AES-256 and decrypts responses transparently. The app keeps working with ordinary maps; the wire only ever carries <code>{"payload": "..."}</code>.</p>
+      <p>Encrypting GET requests is opt-in, and a header lets individual requests skip encryption entirely.</p>
       <p>
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-        <img src="https://img.shields.io/badge/Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Compose"/>
-        <img src="https://img.shields.io/github/stars/JaysonKhan/NewsAppCompose-MVI?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
+        <a href="https://pub.dev/packages/encryption_interceptor"><img src="https://img.shields.io/pub/v/encryption_interceptor?style=flat-square&logo=dart&logoColor=white&labelColor=0D1117&color=0175C2" alt="pub version"/></a>
+        <img src="https://img.shields.io/pub/likes/encryption_interceptor?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub likes"/>
+        <img src="https://img.shields.io/pub/points/encryption_interceptor?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub points"/>
       </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/JaysonKhan/telegram_bot_crashlytics">📮 telegram_bot_crashlytics</a></h3>
+      <p>Crash reporting without a dashboard — runtime errors, failed requests and device info go straight into a Telegram or Slack channel.</p>
+      <p>Status codes can be ignored selectively, so an expected 401 does not wake anyone up at night.</p>
+      <p>
+        <a href="https://pub.dev/packages/telegram_bot_crashlytics"><img src="https://img.shields.io/pub/v/telegram_bot_crashlytics?style=flat-square&logo=dart&logoColor=white&labelColor=0D1117&color=0175C2" alt="pub version"/></a>
+        <img src="https://img.shields.io/pub/likes/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub likes"/>
+        <img src="https://img.shields.io/pub/points/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub points"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/JaysonKhan/autobuilder">🤖 autobuilder</a></h3>
+      <p>A Telegram-driven build and audit service for Ubuntu, running as a systemd unit. APK builds, server health checks and site audits go through a job queue.</p>
+      <p>Each job gets an isolated workspace, a 30-minute and 5&nbsp;GB ceiling, automatic artifact cleanup, and secrets kept out of the logs.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/systemd-000000?style=flat-square&logo=linux&logoColor=white" alt="systemd"/>
+        <img src="https://img.shields.io/github/last-commit/JaysonKhan/autobuilder?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Last commit"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📦 Other Projects
+
+<p>Most of what I build day to day lives in private repositories, UzExam
+included. These are older public ones — Android architecture samples.</p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/JaysonKhan/NewsAppCompose-MVI">📰 NewsAppCompose-MVI</a></h3>
+      <p>News client on Jetpack Compose with an MVI architecture.</p>
+      <p><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/JaysonKhan/EventAppCompose-MVI">🎟️ EventAppCompose-MVI</a></h3>
+      <p>Event browser — another take on Compose and MVI.</p>
+      <p><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/JaysonKhan/BookApp-MVVM">📚 BookApp-MVVM</a></h3>
+      <p>Book library app structured around MVVM.</p>
+      <p><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/></p>
     </td>
   </tr>
 </table>
