@@ -7,6 +7,9 @@ on:
     # runs at 12 AM UTC (5:30 AM IST)
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
@@ -25,17 +28,20 @@ jobs:
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # optional
           CODE_LANG: python # optional
           TIME_RANGE: all_time # optional
-          LANG_COUNT: 20 # optional
+          LANG_COUNT: 10 # optional
           SHOW_TIME: true # optional
           SHOW_TOTAL: true # optional
           SHOW_MASKED_TIME: false # optional
-          STOP_AT_OTHER: true # optional
-          
+          # false => keep listing languages after the "Other" bucket,
+          # so the README shows the real stack, not just 2 rows
+          STOP_AT_OTHER: false # optional
+
           AUTHOR_NAME: Jahongir # optional
           AUTHOR_EMAIL: bettaxacker@gmail.com # optional
           ### commit
           COMMIT_MESSAGE: Biodagi ma`lumotlar yangilani # optional
-          TARGET_BRANCH: master # optional
+          # this repo's default branch is `main` (there is no `master`)
+          TARGET_BRANCH: main # optional
           TARGET_PATH: README.md # optional
           COMMITTER_NAME: Workflow347 # optional
           COMMITTER_EMAIL: action-bot@github.com # optional
