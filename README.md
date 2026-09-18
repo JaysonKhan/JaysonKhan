@@ -2,13 +2,13 @@
 
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20There!%20I'm%20Jahongir%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Solo%20Founder%20%C2%B7%20Full-Cycle%20Product%20Engineer&descAlignY=56&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20There!%20I'm%20Jahongir%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Solo%20Founder%20%C2%B7%20UzExam.uz&descAlignY=56&descAlign=50"/>
 </p>
 
 <!-- Typing animation -->
 <p align="center">
   <a href="https://jaysonkhan.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1300&color=58A6FF&center=true&vCenter=true&width=680&height=48&lines=Solo+founder+of+UzExam.uz;Design+%E2%86%92+Backend+%E2%86%92+Web+%E2%86%92+Mobile+%E2%86%92+Launch;A+one-person+product+team;Flutter+%C2%B7+Kotlin+%C2%B7+Python+%C2%B7+JavaScript" alt="Solo founder of UzExam.uz"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1300&color=58A6FF&center=true&vCenter=true&width=680&height=48&lines=Building+UzExam.uz;Mobile%2C+web%2C+and+the+parts+in+between;Flutter+%C2%B7+Kotlin+%C2%B7+Python+%C2%B7+JavaScript;Tashkent%2C+Uzbekistan" alt="Solo founder of UzExam.uz"/>
   </a>
 </p>
 
@@ -40,15 +40,13 @@
 
 <img align="right" alt="Coding" width="330" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemxodXByN284b3dsdnA0bWc4c3kyYW96NTc4eGVqMHV0a2s0M250NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zll2OF7cp3HkAhxkJM/giphy.gif"/>
 
-Most developers own a layer. I own the product.
-
 - 🎓 Building **[UzExam.uz](https://uzexam.uz)** — my own exam-prep platform
-- 🧩 I shipped it **end to end**: architecture, backend, web, mobile, design, ads
+- 🧩 A personal project, so the work runs across backend, web, mobile and design
 - 📱 **Flutter** for mobile, native **Android** when it earns its keep
 - 🌐 Portfolio: **[jaysonkhan.com](https://jaysonkhan.com)**
 - 📫 Reach me: **[admin@jaysonkhan.com](mailto:admin@jaysonkhan.com)**
 - 📍 Tashkent, Uzbekistan · UTC+5
-- ⚡ Fun fact: I turn ☕ into entire products, not just screens
+- ⚡ Fun fact: I turn ☕ into apps
 
 <br clear="right"/>
 
@@ -60,16 +58,13 @@ Most developers own a layer. I own the product.
 Salom! Men **Jahongir Qo'ziboyev**, Toshkentda yashayman va o'zimning
 **UzExam.uz** loyihamni olib boraman.
 
-Ko'pchilik dasturchi bitta qatlamni oladi — men mahsulotning **hammasini**
-o'zim qildim: g'oyadan tortib reklamagacha.
-
 | | |
 |---|---|
 | 🎯 **Mahsulot** | UzExam.uz — imtihonga tayyorgarlik platformasi |
 | 📱 **Mobil** | Flutter (Dart), kerak bo'lganda native Android |
-| ⚙️ **Backend** | API, ma'lumotlar bazasi, deployment — o'zim |
-| 🎨 **Dizayn** | UI/UX ham o'zimniki |
-| 📣 **Marketing** | Reklama va targ'ibot ham o'zimniki |
+| ⚙️ **Backend** | API, ma'lumotlar bazasi, deployment |
+| 🎨 **Dizayn** | UI/UX |
+| 📣 **Marketing** | Reklama va targ'ibot |
 | 💬 **Bog'lanish** | admin@jaysonkhan.com |
 
 </details>
@@ -85,7 +80,7 @@ o'zim qildim: g'oyadan tortib reklamagacha.
 | 🎨 **Design** | I design the screens before I build them, in Figma |
 | ⚙️ **Backend** | REST, GraphQL, FastAPI, Firebase |
 | 📱 **Mobile** | Flutter first; Kotlin + Jetpack Compose when native pays off |
-| 📣 **Launch** | Store listings, ad creatives and copy — also me |
+| 📣 **Launch** | Store listings, ad creatives and copy |
 | 📈 **Tracked** | 3,400+ hours of real coding time (breakdown below) |
 
 </details>
@@ -98,21 +93,8 @@ o'zim qildim: g'oyadan tortib reklamagacha.
 An exam-preparation platform for Uzbekistan — Multilevel, DTM, Milliy sertifikat,
 driving theory and interview practice, each as its own focused app.
 
-### The team roster
-
-| Role | Who |
-|:---|:---|
-| 🧭 Product & architecture | Jahongir |
-| ⚙️ Backend & API | Jahongir |
-| 🌐 Web frontend | Jahongir |
-| 📱 Mobile apps | Jahongir |
-| 🎨 UI/UX design | Jahongir |
-| 📣 Marketing & ads | Jahongir |
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Headcount-1-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Headcount: 1"/>
-  <img src="https://img.shields.io/badge/Excuses-0-3DDC84?style=for-the-badge&labelColor=0D1117" alt="Excuses: 0"/>
-</p>
+It is a personal project, so there is nobody to hand a layer to: the backend,
+the web client, the apps and the design are all mine to get wrong and fix.
 
 <p align="center">
   <a href="https://uzexam.uz">
