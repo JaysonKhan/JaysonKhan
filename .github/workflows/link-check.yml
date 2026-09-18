@@ -1,0 +1,43 @@
+name: Check README Links
+
+# This README is almost entirely third-party badge and image hosts. When one
+# of them dies the profile quietly renders broken images and nothing reports
+# it - which is exactly how a dead Heroku endpoint sat in the README for
+# years. Monthly is often enough to catch that without becoming noise.
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: link-check
+  cancel-in-progress: true
+
+jobs:
+  lychee:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every link and image host in README.md
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # LinkedIn, X and Pinterest return 999/403 to any automated client,
+          # so they would fail forever regardless of whether the profile is
+          # real. 429 is rate limiting, not a dead host.
+          args: >-
+            --no-progress
+            --max-retries 2
+            --accept 200,206,429
+            --exclude-mail
+            --exclude 'linkedin\.com'
+            --exclude 'twitter\.com'
+            --exclude 'x\.com'
+            --exclude 'pinterest\.com'
+            --exclude 'medium\.com'
+            README.md
+          fail: true
