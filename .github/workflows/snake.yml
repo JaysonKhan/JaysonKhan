@@ -5,9 +5,12 @@ on:
     # Runs every day at midnight UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+# The snake only ever redraws the contribution grid, so a run that is
+# already in flight has nothing worth preserving.
+concurrency:
+  group: snake
+  cancel-in-progress: true
 
 jobs:
   generate:
