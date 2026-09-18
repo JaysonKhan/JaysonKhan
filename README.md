@@ -100,9 +100,6 @@ the web client, the apps and the design are all mine to get wrong and fix.
   <a href="https://uzexam.uz">
     <img src="https://img.shields.io/badge/Visit%20UzExam.uz-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Visit UzExam.uz"/>
   </a>
-  <a href="https://github.com/JaysonKhan/uzexam-multilevel">
-    <img src="https://img.shields.io/badge/Multilevel%20app-0175C2?style=for-the-badge&logo=flutter&logoColor=white&labelColor=0D1117" alt="Multilevel app"/>
-  </a>
 </p>
 
 ---
@@ -169,6 +166,9 @@ the web client, the apps and the design are all mine to get wrong and fix.
 <!-- ═══════════════════════════ OTHER PROJECTS ═══════════════════════════ -->
 ## 📦 Other Projects
 
+<p>Most of what I build day to day lives in private repositories, UzExam
+included. These are the public ones.</p>
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -177,27 +177,7 @@ the web client, the apps and the design are all mine to get wrong and fix.
       <p>
         <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
         <img src="https://img.shields.io/github/stars/JaysonKhan/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
-        <img src="https://img.shields.io/github/last-commit/JaysonKhan/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Last commit"/>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/uzexam-multilevel">🎓 uzexam-multilevel</a></h3>
-      <p>The Multilevel exam app from the UzExam family, built in Flutter.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
-        <img src="https://img.shields.io/github/stars/JaysonKhan/uzexam-multilevel?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
-        <img src="https://img.shields.io/github/last-commit/JaysonKhan/uzexam-multilevel?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Last commit"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/hikvision-attendance">🕒 hikvision-attendance</a></h3>
-      <p>Attendance MVP built on Hikvision devices with FastAPI + React, deployed on Railway.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-        <img src="https://img.shields.io/github/last-commit/JaysonKhan/hikvision-attendance?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Last commit"/>
+        <img src="https://img.shields.io/github/forks/JaysonKhan/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Forks"/>
       </p>
     </td>
     <td width="50%" valign="top">
