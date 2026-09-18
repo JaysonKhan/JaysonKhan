@@ -2,13 +2,13 @@
 
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20There!%20I'm%20Jahongir%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Flutter%20%7C%20Android%20Developer&descAlignY=56&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20There!%20I'm%20Jahongir%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Solo%20Founder%20%C2%B7%20Full-Cycle%20Product%20Engineer&descAlignY=56&descAlign=50"/>
 </p>
 
 <!-- Typing animation -->
 <p align="center">
   <a href="https://jaysonkhan.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&height=48&lines=Flutter+%26+Android+Developer;Building+apps+from+Tashkent+%F0%9F%87%BA%F0%9F%87%BF;Dart+%C2%B7+Kotlin+%C2%B7+Java+%C2%B7+Python;3%2C400%2B+hours+of+coding+tracked" alt="Flutter & Android Developer"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1300&color=58A6FF&center=true&vCenter=true&width=680&height=48&lines=Solo+founder+of+UzExam.uz;Design+%E2%86%92+Backend+%E2%86%92+Web+%E2%86%92+Mobile+%E2%86%92+Launch;A+one-person+product+team;Flutter+%C2%B7+Kotlin+%C2%B7+Python+%C2%B7+JavaScript" alt="Solo founder of UzExam.uz"/>
   </a>
 </p>
 
@@ -27,9 +27,9 @@
 <!-- ═══════════════════════════ QUICK NAV ═══════════════════════════ -->
 <p align="center">
   <a href="#-about-me"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20About-161B22?style=for-the-badge" alt="About"/></a>
+  <a href="#-uzexamuz"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20UzExam-161B22?style=for-the-badge" alt="UzExam"/></a>
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/%F0%9F%A7%B0%20Stack-161B22?style=for-the-badge" alt="Stack"/></a>
-  <a href="#-github-stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A%20Stats-161B22?style=for-the-badge" alt="Stats"/></a>
-  <a href="#-featured-projects"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20Projects-161B22?style=for-the-badge" alt="Projects"/></a>
+  <a href="#-other-projects"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20Projects-161B22?style=for-the-badge" alt="Projects"/></a>
   <a href="#-connect"><img src="https://img.shields.io/badge/%F0%9F%A4%9D%20Connect-161B22?style=for-the-badge" alt="Connect"/></a>
 </p>
 
@@ -40,58 +40,88 @@
 
 <img align="right" alt="Coding" width="330" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemxodXByN284b3dsdnA0bWc4c3kyYW96NTc4eGVqMHV0a2s0M250NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zll2OF7cp3HkAhxkJM/giphy.gif"/>
 
-- 🚀 Passionate **Flutter & Android Developer**
-- 💼 Building elegant & performant mobile applications
-- 🌱 Exploring **advanced Flutter architecture & state management**
-- 💬 Ask me about **Flutter, Dart, Kotlin, Firebase**
+Most developers own a layer. I own the product.
+
+- 🎓 Building **[UzExam.uz](https://uzexam.uz)** — my own exam-prep platform
+- 🧩 I shipped it **end to end**: architecture, backend, web, mobile, design, ads
+- 📱 **Flutter** for mobile, native **Android** when it earns its keep
 - 🌐 Portfolio: **[jaysonkhan.com](https://jaysonkhan.com)**
-- 📫 Reach me: **bettaxacker@gmail.com**
-- ⚡ Fun fact: I turn ☕ into beautiful mobile apps!
+- 📫 Reach me: **[admin@jaysonkhan.com](mailto:admin@jaysonkhan.com)**
+- 📍 Tashkent, Uzbekistan · UTC+5
+- ⚡ Fun fact: I turn ☕ into entire products, not just screens
 
 <br clear="right"/>
-
-```dart
-const jahongir = Developer(
-  role:     'Flutter & Android Developer',
-  company:  'UIC Group',
-  location: 'Tashkent, Uzbekistan',
-  code:     ['Dart', 'Kotlin', 'Java', 'Python'],
-  learning: 'Advanced Flutter architecture',
-  fuel:     '☕ → 📱',
-);
-```
 
 <details>
   <summary><b>🇺🇿 O'zbekcha — men haqimda</b></summary>
 
 <br/>
 
-Salom! Men **Jahongir Qo'ziboyev**, Toshkentda yashovchi Flutter va Android
-dasturchiman. **UIC Group**da mobil ilovalar ishlab chiqaman.
+Salom! Men **Jahongir Qo'ziboyev**, Toshkentda yashayman va o'zimning
+**UzExam.uz** loyihamni olib boraman.
+
+Ko'pchilik dasturchi bitta qatlamni oladi — men mahsulotning **hammasini**
+o'zim qildim: g'oyadan tortib reklamagacha.
 
 | | |
 |---|---|
-| 🎯 **Asosiy yo'nalish** | Flutter (Dart) bilan cross-platform mobil ilovalar |
-| 🤖 **Ikkinchi yo'nalish** | Native Android — Kotlin, Jetpack Compose |
-| 🧪 **Hozir o'rganyapman** | Clean Architecture, state management, test yozish |
-| 💬 **Bog'lanish** | Telegram yoki email orqali bemalol yozing |
+| 🎯 **Mahsulot** | UzExam.uz — imtihonga tayyorgarlik platformasi |
+| 📱 **Mobil** | Flutter (Dart), kerak bo'lganda native Android |
+| ⚙️ **Backend** | API, ma'lumotlar bazasi, deployment — o'zim |
+| 🎨 **Dizayn** | UI/UX ham o'zimniki |
+| 📣 **Marketing** | Reklama va targ'ibot ham o'zimniki |
+| 💬 **Bog'lanish** | admin@jaysonkhan.com |
 
 </details>
 
 <details>
-  <summary><b>🧠 More about how I work</b></summary>
+  <summary><b>🧠 How I actually work</b></summary>
 
 <br/>
 
 | | |
 |---|---|
-| 🏗️ **Architecture** | Clean Architecture, MVVM, MVI, MVC — pick what fits the problem |
-| 🎨 **UI** | Pixel-accurate screens, smooth 60fps animations |
-| ☁️ **Backend** | Firebase, REST, GraphQL, FastAPI |
-| 🧰 **Daily tools** | Android Studio, VS Code, Git, Postman, Figma |
-| 📈 **Tracked** | 3,400+ hours of real coding time (see WakaTime below) |
+| 🏗️ **Architecture** | Clean Architecture, MVVM, MVI, MVC — whichever fits the problem |
+| 🎨 **Design** | I design the screens before I build them, in Figma |
+| ⚙️ **Backend** | REST, GraphQL, FastAPI, Firebase |
+| 📱 **Mobile** | Flutter first; Kotlin + Jetpack Compose when native pays off |
+| 📣 **Launch** | Store listings, ad creatives and copy — also me |
+| 📈 **Tracked** | 3,400+ hours of real coding time (breakdown below) |
 
 </details>
+
+---
+
+<!-- ═══════════════════════════ UZEXAM ═══════════════════════════ -->
+## 🎓 UzExam.uz
+
+An exam-preparation platform for Uzbekistan — Multilevel, DTM, Milliy sertifikat,
+driving theory and interview practice, each as its own focused app.
+
+### The team roster
+
+| Role | Who |
+|:---|:---|
+| 🧭 Product & architecture | Jahongir |
+| ⚙️ Backend & API | Jahongir |
+| 🌐 Web frontend | Jahongir |
+| 📱 Mobile apps | Jahongir |
+| 🎨 UI/UX design | Jahongir |
+| 📣 Marketing & ads | Jahongir |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Headcount-1-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Headcount: 1"/>
+  <img src="https://img.shields.io/badge/Excuses-0-3DDC84?style=for-the-badge&labelColor=0D1117" alt="Excuses: 0"/>
+</p>
+
+<p align="center">
+  <a href="https://uzexam.uz">
+    <img src="https://img.shields.io/badge/Visit%20UzExam.uz-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Visit UzExam.uz"/>
+  </a>
+  <a href="https://github.com/JaysonKhan/uzexam-multilevel">
+    <img src="https://img.shields.io/badge/Multilevel%20app-0175C2?style=for-the-badge&logo=flutter&logoColor=white&labelColor=0D1117" alt="Multilevel app"/>
+  </a>
+</p>
 
 ---
 
@@ -99,113 +129,63 @@ dasturchiman. **UIC Group**da mobil ilovalar ishlab chiqaman.
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,java,androidstudio,firebase&theme=dark" alt="Mobile stack"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=python,js,php,swift,git,github&theme=dark" alt="Other stack"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
 </p>
 
 <details>
-  <summary><b>📋 Full breakdown by category</b></summary>
+  <summary><b>📋 Full breakdown by layer</b></summary>
 
 <br/>
 
 **Mobile**
 
 <p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
 </p>
 
-**Backend & Cloud**
+**Backend & data**
 
 <p>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL"/>
-  <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+  <img src="https://img.shields.io/badge/REST-005571?style=flat-square&logo=json&logoColor=white" alt="REST"/>
+</p>
+
+**Web & design**
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma"/>
 </p>
 
 **Tools**
 
 <p>
-  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" alt="Android Studio"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman"/>
 </p>
 
 </details>
 
 ---
 
-<!-- ═══════════════════════════ GITHUB STATS ═══════════════════════════ -->
-## 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/JaysonKhan">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400&theme=default"/>
-      <img height="170em" src="https://github-readme-stats.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400&theme=tokyonight" alt="JaysonKhan's GitHub stats"/>
-    </picture>
-  </a>
-  <a href="https://github.com/JaysonKhan?tab=repositories">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF"/>
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=default"/>
-      <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight" alt="Top languages"/>
-    </picture>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/JaysonKhan">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=JaysonKhan&hide_border=true&theme=tokyonight&background=0D1117&ring=58A6FF&fire=58A6FF"/>
-      <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=JaysonKhan&hide_border=true&theme=default"/>
-      <img src="https://streak-stats.demolab.com?user=JaysonKhan&hide_border=true&theme=tokyonight" alt="GitHub streak"/>
-    </picture>
-  </a>
-</p>
-
-<details>
-  <summary align="center"><b>📈 Show contribution activity graph</b></summary>
-
-<br/>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=JaysonKhan&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=JaysonKhan&theme=github-light&area=true&hide_border=true"/>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=JaysonKhan&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true" alt="Contribution activity graph"/>
-  </picture>
-</p>
-
-</details>
-
-<details>
-  <summary align="center"><b>🏆 Show GitHub trophies</b></summary>
-
-<br/>
-
-<p align="center">
-  <a href="https://github.com/JaysonKhan">
-    <img src="https://github-profile-trophy.vercel.app/?username=JaysonKhan&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies"/>
-  </a>
-</p>
-
-</details>
-
----
-
-<!-- ═══════════════════════════ FEATURED PROJECTS ═══════════════════════════ -->
-## 📦 Featured Projects
+<!-- ═══════════════════════════ OTHER PROJECTS ═══════════════════════════ -->
+## 📦 Other Projects
 
 <table>
   <tr>
@@ -220,7 +200,7 @@ dasturchiman. **UIC Group**da mobil ilovalar ishlab chiqaman.
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/JaysonKhan/uzexam-multilevel">🎓 uzexam-multilevel</a></h3>
-      <p>Flutter app for Multilevel exam preparation — part of the <code>uzexam</code> family of study apps.</p>
+      <p>The Multilevel exam app from the UzExam family, built in Flutter.</p>
       <p>
         <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
         <img src="https://img.shields.io/github/stars/JaysonKhan/uzexam-multilevel?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
@@ -248,26 +228,6 @@ dasturchiman. **UIC Group**da mobil ilovalar ishlab chiqaman.
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/BookApp-MVVM">📚 BookApp-MVVM</a></h3>
-      <p>Android book library app structured around the MVVM pattern.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-        <img src="https://img.shields.io/github/stars/JaysonKhan/BookApp-MVVM?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
-        <img src="https://img.shields.io/github/last-commit/JaysonKhan/BookApp-MVVM?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Last commit"/>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/EventAppCompose-MVI">🎟️ EventAppCompose-MVI</a></h3>
-      <p>Event browsing app — another take on Compose + MVI on Android.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-        <img src="https://img.shields.io/badge/Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Compose"/>
-        <img src="https://img.shields.io/github/stars/JaysonKhan/EventAppCompose-MVI?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Stars"/>
-      </p>
-    </td>
-  </tr>
 </table>
 
 <p align="center">
@@ -275,6 +235,24 @@ dasturchiman. **UIC Group**da mobil ilovalar ishlab chiqaman.
     <img src="https://img.shields.io/badge/Browse%20all%20repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="All repositories"/>
   </a>
 </p>
+
+---
+
+<!-- ═══════════════════════════ GITHUB STATS ═══════════════════════════ -->
+## 📊 GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/JaysonKhan">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=JaysonKhan&hide_border=true&theme=tokyonight&background=0D1117&ring=58A6FF&fire=58A6FF"/>
+      <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=JaysonKhan&hide_border=true&theme=default"/>
+      <img src="https://streak-stats.demolab.com?user=JaysonKhan&hide_border=true&theme=tokyonight" alt="GitHub streak"/>
+    </picture>
+  </a>
+</p>
+
+> Language totals live in the WakaTime breakdown below — measured from actual
+> editor time rather than from repository file sizes.
 
 ---
 
@@ -313,8 +291,14 @@ Other                      909 hrs 56 mins       ⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀�
 ## 🤝 Connect
 
 <p align="center">
+  <a href="https://uzexam.uz" target="_blank">
+    <img alt="UzExam" src="https://img.shields.io/badge/UzExam.uz-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117"/>
+  </a>
   <a href="https://jaysonkhan.com" target="_blank">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117"/>
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=aboutdotme&logoColor=white&labelColor=0D1117"/>
+  </a>
+  <a href="mailto:admin@jaysonkhan.com">
+    <img alt="Email" src="https://img.shields.io/badge/admin@jaysonkhan.com-EA4335?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0D1117"/>
   </a>
   <a href="https://t.me/JaysonKhan" target="_blank">
     <img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117"/>
@@ -325,19 +309,6 @@ Other                      909 hrs 56 mins       ⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀�
   <a href="https://medium.com/@j_khan347" target="_blank">
     <img alt="Medium" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white&labelColor=0D1117"/>
   </a>
-  <a href="https://twitter.com/j_khan347" target="_blank">
-    <img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"/>
-  </a>
-  <a href="https://www.pinterest.com/betta347/" target="_blank">
-    <img alt="Pinterest" src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white&labelColor=0D1117"/>
-  </a>
-  <a href="mailto:bettaxacker@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote"/>
 </p>
 
 <p align="center"><a href="#top">⬆️ Back to top</a></p>
