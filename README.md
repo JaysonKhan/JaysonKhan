@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/github/followers/JaysonKhan?label=Followers&style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117&logoColor=white" alt="Followers"/>
   </a>
   <a href="https://github.com/JaysonKhan?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repos-88-58A6FF?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Repositories"/>
+    <img src="https://img.shields.io/badge/Repositories-58A6FF?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Repositories"/>
   </a>
   <img src="https://img.shields.io/badge/Tashkent-UTC%2B5-58A6FF?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location"/>
 </p>
@@ -272,7 +272,7 @@ dasturchiman. **UIC Group**da mobil ilovalar ishlab chiqaman.
 
 <p align="center">
   <a href="https://github.com/JaysonKhan?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/badge/Browse%20all%2088%20repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="All repositories"/>
+    <img src="https://img.shields.io/badge/Browse%20all%20repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="All repositories"/>
   </a>
 </p>
 
