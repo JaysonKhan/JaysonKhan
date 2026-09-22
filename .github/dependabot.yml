@@ -2,7 +2,7 @@ version: 2
 
 updates:
   # Now that the workflows pin their actions, something has to notice when a
-  # pinned version falls behind. Monthly is plenty for two workflows.
+  # pinned version falls behind. Monthly is plenty for three workflows.
   - package-ecosystem: github-actions
     directory: /
     schedule:
@@ -11,3 +11,9 @@ updates:
       prefix: ci
     labels:
       - dependencies
+    ignore:
+      # waka-readme is pinned to a master commit that is newer than its
+      # latest release. Offering v0.3.1 would be a downgrade that brings
+      # back the misaligned bars; a real release after it is still welcome.
+      - dependency-name: athul/waka-readme
+        versions: ["<= 0.3.1"]
