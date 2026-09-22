@@ -4,7 +4,7 @@ on:
   # for manual workflow trigger
   workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
+    # 00:00 UTC = 05:00 in Tashkent
     - cron: "0 0 * * *"
 
 permissions:
@@ -20,7 +20,12 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@v0.3.1
+      # Pinned to a master commit, not a tag. v0.3.1 (May 2024) is the latest
+      # release but pads the time column to 16 chars, so "2,153 hrs 46 mins"
+      # overflows and the bars stop lining up. The fix (50487a2) is only on
+      # master. A SHA is also stricter than a tag: tags can be moved.
+      # Do not "upgrade" this to v0.3.1 - that is a downgrade.
+      - uses: athul/waka-readme@370590ad8da8f54282ed92aa42b7c25ecbd5a9a6 # master 2026-02-18
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }} # optional if on profile readme
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
@@ -33,7 +38,12 @@ jobs:
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # optional
           CODE_LANG: python # optional
           TIME_RANGE: all_time # optional
-          LANG_COUNT: 10 # optional
+          # Docs and config formats, not languages anyone writes by choice.
+          IGNORED_LANGUAGES: Markdown YAML JSON # optional
+          # 13, not 10: ignored languages still use up a slot, because the
+          # action counts rows by their index in the unfiltered list.
+          # 13 minus the three above leaves 10 visible rows.
+          LANG_COUNT: 13 # optional
           SHOW_TIME: true # optional
           SHOW_TOTAL: true # optional
           SHOW_MASKED_TIME: false # optional
