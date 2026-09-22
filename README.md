@@ -2,7 +2,7 @@
 
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20There!%20I'm%20Jahongir%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Solo%20Founder%20%C2%B7%20UzExam.uz&descAlignY=56&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%20There!%20I'm%20Jahongir%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Solo%20Founder%20%C2%B7%20UzExam.uz&descAlignY=56&descAlign=50" alt="Hi there, I'm Jahongir — Solo Founder · UzExam.uz"/>
 </p>
 
 <!-- Typing animation -->
@@ -31,6 +31,7 @@
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/%F0%9F%A7%B0%20Stack-161B22?style=for-the-badge" alt="Stack"/></a>
   <a href="#-packages-and-tools"><img src="https://img.shields.io/badge/%F0%9F%A7%A9%20Packages-161B22?style=for-the-badge" alt="Packages"/></a>
   <a href="#-other-projects"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20Projects-161B22?style=for-the-badge" alt="Projects"/></a>
+  <a href="#-github-stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A%20Stats-161B22?style=for-the-badge" alt="Stats"/></a>
   <a href="#-connect"><img src="https://img.shields.io/badge/%F0%9F%A4%9D%20Connect-161B22?style=for-the-badge" alt="Connect"/></a>
 </p>
 
@@ -265,14 +266,14 @@ included. These are older public ones — Android architecture samples.</p>
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
       <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=default"/>
-      <img height="170em" src="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="JaysonKhan's GitHub stats"/>
+      <img height="170" src="https://github-readme-stats-livid-one-52.vercel.app/api?username=JaysonKhan&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="JaysonKhan's GitHub stats"/>
     </picture>
   </a>
   <a href="https://github.com/JaysonKhan?tab=repositories">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF"/>
       <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=default"/>
-      <img height="170em" src="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF" alt="Top languages"/>
+      <img height="170" src="https://github-readme-stats-livid-one-52.vercel.app/api/top-langs/?username=JaysonKhan&layout=compact&langs_count=8&hide_border=true&cache_seconds=86400&theme=tokyonight&bg_color=0D1117&title_color=58A6FF" alt="Top languages"/>
     </picture>
   </a>
 </p>
@@ -294,7 +295,9 @@ included. These are older public ones — Android architecture samples.</p>
 ---
 
 <!-- ═══════════════════════════ WAKATIME ═══════════════════════════ -->
-## 📈 Weekly Development Breakdown
+## 📈 Coding Time
+
+All-time editor activity from WakaTime, refreshed every morning.
 
 <!--START_SECTION:waka-->
 
@@ -354,11 +357,17 @@ JSON                       35 hrs 52 mins  ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   <a href="https://medium.com/@j_khan347" target="_blank">
     <img alt="Medium" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white&labelColor=0D1117"/>
   </a>
+  <a href="https://x.com/j_khan347" target="_blank">
+    <img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"/>
+  </a>
+  <a href="https://www.pinterest.com/betta347/" target="_blank">
+    <img alt="Pinterest" src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white&labelColor=0D1117"/>
+  </a>
 </p>
 
 <p align="center"><a href="#top">⬆️ Back to top</a></p>
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" alt=""/>
 </p>
