@@ -30,7 +30,6 @@
   <a href="#-uzexamuz"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20UzExam-161B22?style=for-the-badge" alt="UzExam"/></a>
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/%F0%9F%A7%B0%20Stack-161B22?style=for-the-badge" alt="Stack"/></a>
   <a href="#-packages-and-tools"><img src="https://img.shields.io/badge/%F0%9F%A7%A9%20Packages-161B22?style=for-the-badge" alt="Packages"/></a>
-  <a href="#-other-projects"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20Projects-161B22?style=for-the-badge" alt="Projects"/></a>
   <a href="#-github-stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A%20Stats-161B22?style=for-the-badge" alt="Stats"/></a>
   <a href="#-connect"><img src="https://img.shields.io/badge/%F0%9F%A4%9D%20Connect-161B22?style=for-the-badge" alt="Connect"/></a>
 </p>
@@ -165,12 +164,11 @@ the web client, the apps and the design are all mine to get wrong and fix.
 
 ---
 
-<!-- ═══════════════════════════ OTHER PROJECTS ═══════════════════════════ -->
+<!-- ═══════════════════════════ PACKAGES ═══════════════════════════ -->
 ## 🧩 Packages and Tools
 
 Written because the same problems kept coming back — on company projects and
-on my own. Three are Dio interceptors published on pub.dev; the fourth runs
-the builds.
+on my own. All three are Dio interceptors published on pub.dev.
 
 <table>
   <tr>
@@ -205,43 +203,6 @@ the builds.
         <img src="https://img.shields.io/pub/likes/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub likes"/>
         <img src="https://img.shields.io/pub/points/telegram_bot_crashlytics?style=flat-square&labelColor=0D1117&color=58A6FF" alt="pub points"/>
       </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/autobuilder">🤖 autobuilder</a></h3>
-      <p>A Telegram-driven build and audit service for Ubuntu, running as a systemd unit. APK builds, server health checks and site audits go through a job queue.</p>
-      <p>Each job gets an isolated workspace, a 30-minute and 5&nbsp;GB ceiling, automatic artifact cleanup, and secrets kept out of the logs.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/systemd-000000?style=flat-square&logo=linux&logoColor=white" alt="systemd"/>
-        <img src="https://img.shields.io/github/last-commit/JaysonKhan/autobuilder?style=flat-square&labelColor=0D1117&color=58A6FF" alt="Last commit"/>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📦 Other Projects
-
-<p>Most of what I build day to day lives in private repositories, UzExam
-included. These are older public ones — Android architecture samples.</p>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/NewsAppCompose-MVI">📰 NewsAppCompose-MVI</a></h3>
-      <p>News client on Jetpack Compose with an MVI architecture.</p>
-      <p><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/EventAppCompose-MVI">🎟️ EventAppCompose-MVI</a></h3>
-      <p>Event browser — another take on Compose and MVI.</p>
-      <p><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/JaysonKhan/BookApp-MVVM">📚 BookApp-MVVM</a></h3>
-      <p>Book library app structured around MVVM.</p>
-      <p><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/></p>
     </td>
   </tr>
 </table>
